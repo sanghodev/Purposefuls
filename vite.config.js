@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Purposefuls.github.io/', // GitHub Pages용 base 경로 추가
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
